@@ -1,0 +1,156 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color:#F1F5F8;
+}
+.container
+{
+  transition: all 0.7s linear;
+
+}
+main
+{
+    width:75%;
+
+}
+.container
+{
+    width: 50% !important;
+}
+
+.grocery-center
+{
+    padding: 2rem;
+}
+h3
+{
+
+font-size: 1.75rem;
+color: #063251
+}
+
+.btn-submit
+{
+    width:inherit;
+    height:inherit;
+    right:0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    letter-spacing: 2px;
+    font-size: 0.85rem;
+    background: #a5d5f8;
+    border-color: transparent;
+   
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    padding: 0.3rem;
+
+
+}
+.grocery-list
+{
+    margin-bottom: 0.5rem;
+
+}
+.title
+{
+    margin-bottom: 0;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+  
+}
+
+.form-control
+{
+    padding: 0.2rem;
+
+   padding-left: 1rem !important; 
+   border-top-right-radius: 0;
+   border-bottom-right-radius: 0;
+
+
+}
+.edit-btn,
+.delete-btn {
+  transition: all 0.3ms ease-in-out;
+}
+.edit-btn {
+  color: #6be675;
+}
+.edit-btn:hover {
+  color: #25bb32;
+}
+.delete-btn {
+  color:#e66b6b;
+}
+.delete-btn:hover {
+  color: #bb2525;
+}
+.clear-btn {
+  text-transform: capitalize;
+  
+  color: #e66b6b;
+  font-size: 0.85rem;
+  letter-spacing: 0.25rem;
+  transition: all 0.3ms ease-in-out;
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+}
+.clear-btn:hover {
+  color: #bb2525;
+}
+.alert
+{
+  letter-spacing: 0.25rem;
+}
+article
+{
+  display: flex;
+  align-items: center;
+justify-content: space-between;
+}
+
+@media screen and  (max-width :767.98px)
+{
+  main
+  {
+     width:100%; 
+  }
+  .container
+  {
+      width: 90% !important;
+  }
+
+
+
+}
+@media screen and (min-width :768px) and (max-width :991.98px)
+{
+
+  .container
+  {
+      width: 80% !important;
+  }
+}
+@media screen and (min-width :992px) and (max-width :1199.98px)
+{
+ 
+.container
+  {
+      width: 70% !important;
+  }
+}
+@media screen and (min-width :1200px) and (max-width :1399.98px)
+{
+ 
+  .container
+  {
+      width: 60% !important;
+  }
+}
